@@ -1,0 +1,224 @@
+[
+  {
+    "id": "nike_hero_1",
+    "archetype": "Hero",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Hero", "points": 5 }] }
+  },
+  {
+    "id": "fedex_hero_2",
+    "archetype": "Hero",
+    "url": "https://cdn.worldvectorlogo.com/logos/fedex-express-6.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Hero", "points": 5 }] }
+  },
+  {
+    "id": "amnesty_international_hero_3",
+    "archetype": "Hero",
+    "url": "https://cdn.worldvectorlogo.com/logos/amnesty-international.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Hero", "points": 5 }] }
+  },
+  {
+    "id": "coca_cola_innocent_1",
+    "archetype": "Innocent",
+    "url": "https://cdn.worldvectorlogo.com/logos/coca-cola-2021.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Innocent", "points": 5 }] }
+  },
+  {
+    "id": "disney_innocent_2",
+    "archetype": "Innocent",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/1200px-Disney%2B_logo.svg.png?20250509231455",
+    "effects": { "archetypePoints": [{ "archetype": "Innocent", "points": 5 }] }
+  },
+  {
+    "id": "ivory_soap_innocent_3",
+    "archetype": "Innocent",
+    "url": "https://images.seeklogo.com/logo-png/39/1/ivory-soap-logo-png_seeklogo-397361.png",
+    "effects": { "archetypePoints": [{ "archetype": "Innocent", "points": 5 }] }
+  },
+  {
+    "id": "rolex_ruler_1",
+    "archetype": "Ruler",
+    "url": "https://cdn.worldvectorlogo.com/logos/rolex-logo.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Ruler", "points": 5 }] }
+  },
+  {
+    "id": "tiffany_co_ruler_2",
+    "archetype": "Ruler",
+    "url": "https://www.logo.wine/a/logo/Tiffany_%26_Co./Tiffany_%26_Co.-Logo.wine.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Ruler", "points": 5 }] }
+  },
+  {
+    "id": "bugatti_ruler_3",
+    "archetype": "Ruler",
+    "url": "https://cdn.worldvectorlogo.com/logos/bugatti-2.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Ruler", "points": 5 }] }
+  },
+  {
+    "id": "adobe_creator_1",
+    "archetype": "Creator",
+    "url": "https://cdn.worldvectorlogo.com/logos/adobe-1.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Creator", "points": 5 }] }
+  },
+  {
+    "id": "lego_creator_2",
+    "archetype": "Creator",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/LEGO_logo.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Creator", "points": 5 }] }
+  },
+  {
+    "id": "crayola_creator_3",
+    "archetype": "Creator",
+    "url": "https://images.seeklogo.com/logo-png/32/1/crayola-logo-png_seeklogo-321851.png",
+    "effects": { "archetypePoints": [{ "archetype": "Creator", "points": 5 }] }
+  },
+  {
+    "id": "jj_caregiver_1",
+    "archetype": "Caregiver",
+    "url": "https://as1.ftcdn.net/v2/jpg/03/20/95/62/1000_F_320956207_Of9ZsNjR71wJguUgGV36YWf83xpz1W0G.jpg",
+    "effects": {
+      "archetypePoints": [{ "archetype": "Caregiver", "points": 5 }]
+    }
+  },
+  {
+    "id": "toms_caregiver_2",
+    "archetype": "Caregiver",
+    "url": "https://www.logo.wine/a/logo/Toms_International/Toms_International-Logo.wine.svg",
+    "effects": {
+      "archetypePoints": [{ "archetype": "Caregiver", "points": 5 }]
+    }
+  },
+  {
+    "id": "campbells_caregiver_3",
+    "archetype": "Caregiver",
+    "url": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/012023/campbells.png?HPHKenvUljz2EAr3_WuzEA7uDvKRHvhk&itok=u5KS3mKT",
+    "effects": {
+      "archetypePoints": [{ "archetype": "Caregiver", "points": 5 }]
+    }
+  },
+  {
+    "id": "starbucks_everyman_1",
+    "archetype": "Everyman",
+    "url": "https://upload.wikimedia.org/wikipedia/sco/d/d3/Starbucks_Corporation_Logo_2011.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Everyman", "points": 5 }] }
+  },
+  {
+    "id": "target_everyman_2",
+    "archetype": "Everyman",
+    "url": "https://cdn.worldvectorlogo.com/logos/target-8.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Everyman", "points": 5 }] }
+  },
+  {
+    "id": "ikea_everyman_3",
+    "archetype": "Everyman",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikea_logo.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Everyman", "points": 5 }] }
+  },
+  {
+    "id": "pepsi_jester_1",
+    "archetype": "Jester",
+    "url": "https://images.seeklogo.com/logo-png/30/1/pepsi-vertical-logo-png_seeklogo-301642.png",
+    "effects": { "archetypePoints": [{ "archetype": "Jester", "points": 5 }] }
+  },
+  {
+    "id": "mm_jester_2",
+    "archetype": "Jester",
+    "url": "https://static.vecteezy.com/system/resources/thumbnails/010/761/096/small_2x/mm-logo-m-m-design-white-mm-letter-mm-letter-logo-design-initial-letter-mm-linked-circle-uppercase-monogram-logo-vector.jpg",
+    "effects": { "archetypePoints": [{ "archetype": "Jester", "points": 5 }] }
+  },
+  {
+    "id": "fanta_jester_3",
+    "archetype": "Jester",
+    "url": "https://images.seeklogo.com/logo-png/39/1/fanta-logo-png_seeklogo-399218.png",
+    "effects": { "archetypePoints": [{ "archetype": "Jester", "points": 5 }] }
+  },
+  {
+    "id": "dior_lover_1",
+    "archetype": "Lover",
+    "url": "https://www.svgrepo.com/show/330304/dior.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Lover", "points": 5 }] }
+  },
+  {
+    "id": "victorias_secret_lover_2",
+    "archetype": "Lover",
+    "url": "https://images.seeklogo.com/logo-png/50/1/victorias-secret-logo-png_seeklogo-502843.png",
+    "effects": { "archetypePoints": [{ "archetype": "Lover", "points": 5 }] }
+  },
+  {
+    "id": "lamborghini_lover_3",
+    "archetype": "Lover",
+    "url": "https://cdn.worldvectorlogo.com/logos/lamborghini.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Lover", "points": 5 }] }
+  },
+  {
+    "id": "intel_magician_1",
+    "archetype": "Magician",
+    "url": "https://cdn.worldvectorlogo.com/logos/intel-logo.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Magician", "points": 5 }] }
+  },
+  {
+    "id": "tesla_magician_2",
+    "archetype": "Magician",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Magician", "points": 5 }] }
+  },
+  {
+    "id": "dyson_magician_3",
+    "archetype": "Magician",
+    "url": "https://cdn.worldvectorlogo.com/logos/dyson.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Magician", "points": 5 }] }
+  },
+  {
+    "id": "apple_rebel_1",
+    "archetype": "Rebel",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Rebel", "points": 5 }] }
+  },
+  {
+    "id": "harley_davidson_rebel_2",
+    "archetype": "Rebel",
+    "url": "https://cdn.worldvectorlogo.com/logos/harley-davidson-9.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Rebel", "points": 5 }] }
+  },
+  {
+    "id": "virgin_rebel_3",
+    "archetype": "Rebel",
+    "url": "https://cdn.worldvectorlogo.com/logos/virgin-1.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Rebel", "points": 5 }] }
+  },
+  {
+    "id": "nat_geo_explorer_1",
+    "archetype": "Explorer",
+    "url": "https://www.svgrepo.com/show/303387/national-geographic-logo.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Explorer", "points": 5 }] }
+  },
+  {
+    "id": "red_bull_explorer_2",
+    "archetype": "Explorer",
+    "url": "https://cdn.worldvectorlogo.com/logos/redbullenergydrink.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Explorer", "points": 5 }] }
+  },
+  {
+    "id": "gopro_explorer_3",
+    "archetype": "Explorer",
+    "url": "https://cdn.worldvectorlogo.com/logos/gopro-hero.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Explorer", "points": 5 }] }
+  },
+  {
+    "id": "ted_sage_1",
+    "archetype": "Sage",
+    "url": "https://cdn.worldvectorlogo.com/logos/ted-2.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Sage", "points": 5 }] }
+  },
+  {
+    "id": "nyt_sage_2",
+    "archetype": "Sage",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/NewYorkTimes.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Sage", "points": 5 }] }
+  },
+  {
+    "id": "discovery_channel_sage_3",
+    "archetype": "Sage",
+    "url": "https://cdn.worldvectorlogo.com/logos/discovery-channel-1.svg",
+    "effects": { "archetypePoints": [{ "archetype": "Sage", "points": 5 }] }
+  }
+]
