@@ -19,59 +19,50 @@ export default function BriefPanel({
   } = useBriefEngine();
 
   const loadFromSession = () => {
+    const defaultInitialData = {
+      prompt: "",
+      name: "",
+      tagline: "",
+      industry: "",
+      feelings: {
+        stability: 0,
+        belonging: 0,
+        formal: 0,
+        modern: 0,
+        inspirational: 0,
+        powerful: 0,
+      },
+      attributes: [],
+      stage: "challenger",
+      stageSelected: false,
+      moodboardImage: null,
+      archetypeLogos: [],
+      styleLogos: [],
+      colors: [],
+      typography: "",
+    };
+
     try {
       const savedStep = sessionStorage.getItem("brandBlueprintStep");
       const savedData = sessionStorage.getItem("brandBlueprintData");
 
+      if (savedData) {
+        const parsedData = JSON.parse(savedData);
+        return {
+          step: savedStep ? parseInt(savedStep) : 0,
+          data: { ...defaultInitialData, ...parsedData },
+        };
+      }
+
       return {
         step: savedStep ? parseInt(savedStep) : 0,
-        data: savedData
-          ? JSON.parse(savedData)
-          : {
-              prompt: "",
-              name: "",
-              tagline: "",
-              industry: "Technology & IT",
-              feelings: {
-                stability: 0,
-                belonging: 0,
-                formal: 0,
-                modern: 0,
-                inspirational: 0,
-                powerful: 0,
-              },
-              attributes: [],
-              stage: "challenger",
-              archetypeLogos: [],
-              styleLogos: [],
-              colors: [],
-              typography: "",
-            },
+        data: defaultInitialData,
       };
     } catch (error) {
       console.error("Error loading from sessionStorage:", error);
       return {
         step: 0,
-        data: {
-          prompt: "",
-          name: "",
-          tagline: "",
-          industry: "Technology & IT",
-          feelings: {
-            stability: 0,
-            belonging: 0,
-            formal: 0,
-            modern: 0,
-            inspirational: 0,
-            powerful: 0,
-          },
-          attributes: [],
-          stage: "challenger",
-          archetypeLogos: [],
-          styleLogos: [],
-          colors: [],
-          typography: "",
-        },
+        data: defaultInitialData,
       };
     }
   };
@@ -332,7 +323,6 @@ export default function BriefPanel({
     },
   ];
 
-  // Real-time dashboard update effect
   useEffect(() => {
     if (onFormDataChange) {
       onFormDataChange(formData);
@@ -898,9 +888,15 @@ export default function BriefPanel({
               ].map((stage, index) => (
                 <button
                   key={stage.id}
-                  onClick={() => setFormData({ ...formData, stage: stage.id })}
+                  onClick={() =>
+                    setFormData({
+                      ...formData,
+                      stage: stage.id,
+                      stageSelected: true,
+                    })
+                  }
                   className={`flex-1 py-3 px-2 rounded-full text-sm font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-md animate-slideInUp ${
-                    formData.stage === stage.id
+                    formData.stage === stage.id && formData.stageSelected
                       ? "bg-violet-600 text-white shadow-lg"
                       : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                   }`}
@@ -934,9 +930,14 @@ export default function BriefPanel({
             </h2>
 
             <div className="space-y-8 mt-6">
-              <div className="animate-slideInUp">
-                <MoodboardUpload />
-              </div>
+              <MoodboardUpload
+                onImageUpload={(imageUrl) => {
+                  setFormData((prev) => ({
+                    ...prev,
+                    moodboardImage: imageUrl,
+                  }));
+                }}
+              />
 
               <div
                 className="animate-slideInUp"
